@@ -1,0 +1,12 @@
+D:\Repos\SalsResto\SalsResto.Services\bin\Debug\net5.0\SalsResto.Services.deps.json
+D:\Repos\SalsResto\SalsResto.Services\bin\Debug\net5.0\SalsResto.Services.dll
+D:\Repos\SalsResto\SalsResto.Services\bin\Debug\net5.0\ref\SalsResto.Services.dll
+D:\Repos\SalsResto\SalsResto.Services\bin\Debug\net5.0\SalsResto.Services.pdb
+D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\SalsResto.Services.csproj.AssemblyReference.cache
+D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\SalsResto.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\SalsResto.Services.AssemblyInfoInputs.cache
+D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\SalsResto.Services.AssemblyInfo.cs
+D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\SalsResto.Services.csproj.CoreCompileInputs.cache
+D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\SalsResto.Services.dll
+D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\ref\SalsResto.Services.dll
+D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\SalsResto.Services.pdb
