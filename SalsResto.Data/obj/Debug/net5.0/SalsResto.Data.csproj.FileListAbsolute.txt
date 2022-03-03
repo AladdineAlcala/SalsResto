@@ -2,7 +2,6 @@ D:\Repos\SalsResto\SalsResto.Data\bin\Debug\net5.0\SalsResto.Data.deps.json
 D:\Repos\SalsResto\SalsResto.Data\bin\Debug\net5.0\SalsResto.Data.dll
 D:\Repos\SalsResto\SalsResto.Data\bin\Debug\net5.0\ref\SalsResto.Data.dll
 D:\Repos\SalsResto\SalsResto.Data\bin\Debug\net5.0\SalsResto.Data.pdb
-D:\Repos\SalsResto\SalsResto.Data\obj\Debug\net5.0\SalsResto.Data.csproj.AssemblyReference.cache
 D:\Repos\SalsResto\SalsResto.Data\obj\Debug\net5.0\SalsResto.Data.GeneratedMSBuildEditorConfig.editorconfig
 D:\Repos\SalsResto\SalsResto.Data\obj\Debug\net5.0\SalsResto.Data.AssemblyInfoInputs.cache
 D:\Repos\SalsResto\SalsResto.Data\obj\Debug\net5.0\SalsResto.Data.AssemblyInfo.cs
@@ -10,3 +9,4 @@ D:\Repos\SalsResto\SalsResto.Data\obj\Debug\net5.0\SalsResto.Data.csproj.CoreCom
 D:\Repos\SalsResto\SalsResto.Data\obj\Debug\net5.0\SalsResto.Data.dll
 D:\Repos\SalsResto\SalsResto.Data\obj\Debug\net5.0\ref\SalsResto.Data.dll
 D:\Repos\SalsResto\SalsResto.Data\obj\Debug\net5.0\SalsResto.Data.pdb
+D:\Repos\SalsResto\SalsResto.Data\obj\Debug\net5.0\SalsResto.Data.csproj.AssemblyReference.cache

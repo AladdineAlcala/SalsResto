@@ -10,3 +10,6 @@ D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\SalsResto.Services.csproj
 D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\SalsResto.Services.dll
 D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\ref\SalsResto.Services.dll
 D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\SalsResto.Services.pdb
+D:\Repos\SalsResto\SalsResto.Services\bin\Debug\net5.0\SalsResto.Data.dll
+D:\Repos\SalsResto\SalsResto.Services\bin\Debug\net5.0\SalsResto.Data.pdb
+D:\Repos\SalsResto\SalsResto.Services\obj\Debug\net5.0\SalsResto.Services.csproj.CopyComplete

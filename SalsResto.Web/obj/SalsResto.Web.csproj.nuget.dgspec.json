@@ -4,14 +4,14 @@
     "D:\\Repos\\SalsResto\\SalsResto.Web\\SalsResto.Web.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\SalsResto\\SalsResto.Web\\SalsResto.Web.csproj": {
+    "D:\\Repos\\SalsResto\\SalsResto.Data\\SalsResto.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\SalsResto\\SalsResto.Web\\SalsResto.Web.csproj",
-        "projectName": "SalsResto.Web",
-        "projectPath": "D:\\Repos\\SalsResto\\SalsResto.Web\\SalsResto.Web.csproj",
+        "projectUniqueName": "D:\\Repos\\SalsResto\\SalsResto.Data\\SalsResto.Data.csproj",
+        "projectName": "SalsResto.Data",
+        "projectPath": "D:\\Repos\\SalsResto\\SalsResto.Data\\SalsResto.Data.csproj",
         "packagesPath": "C:\\Users\\Marybeatrix\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\SalsResto\\SalsResto.Web\\obj\\",
+        "outputPath": "D:\\Repos\\SalsResto\\SalsResto.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marybeatrix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,217 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\SalsResto\\SalsResto.Repository\\SalsResto.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\SalsResto\\SalsResto.Repository\\SalsResto.Repository.csproj",
+        "projectName": "SalsResto.Repository",
+        "projectPath": "D:\\Repos\\SalsResto\\SalsResto.Repository\\SalsResto.Repository.csproj",
+        "packagesPath": "C:\\Users\\Marybeatrix\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\SalsResto\\SalsResto.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marybeatrix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Repos\\SalsResto\\SalsResto.Data\\SalsResto.Data.csproj": {
+                "projectPath": "D:\\Repos\\SalsResto\\SalsResto.Data\\SalsResto.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\SalsResto\\SalsResto.Services\\SalsResto.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\SalsResto\\SalsResto.Services\\SalsResto.Services.csproj",
+        "projectName": "SalsResto.Services",
+        "projectPath": "D:\\Repos\\SalsResto\\SalsResto.Services\\SalsResto.Services.csproj",
+        "packagesPath": "C:\\Users\\Marybeatrix\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\SalsResto\\SalsResto.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marybeatrix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Repos\\SalsResto\\SalsResto.Data\\SalsResto.Data.csproj": {
+                "projectPath": "D:\\Repos\\SalsResto\\SalsResto.Data\\SalsResto.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\SalsResto\\SalsResto.Web\\SalsResto.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\SalsResto\\SalsResto.Web\\SalsResto.Web.csproj",
+        "projectName": "SalsResto.Web",
+        "projectPath": "D:\\Repos\\SalsResto\\SalsResto.Web\\SalsResto.Web.csproj",
+        "packagesPath": "C:\\Users\\Marybeatrix\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\SalsResto\\SalsResto.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marybeatrix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Repos\\SalsResto\\SalsResto.Repository\\SalsResto.Repository.csproj": {
+                "projectPath": "D:\\Repos\\SalsResto\\SalsResto.Repository\\SalsResto.Repository.csproj"
+              },
+              "D:\\Repos\\SalsResto\\SalsResto.Services\\SalsResto.Services.csproj": {
+                "projectPath": "D:\\Repos\\SalsResto\\SalsResto.Services\\SalsResto.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"

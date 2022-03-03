@@ -1,0 +1,15 @@
+D:\Repos\SalsResto\SalsResto.Repository\bin\Debug\net5.0\SalsResto.Repository.deps.json
+D:\Repos\SalsResto\SalsResto.Repository\bin\Debug\net5.0\SalsResto.Repository.dll
+D:\Repos\SalsResto\SalsResto.Repository\bin\Debug\net5.0\ref\SalsResto.Repository.dll
+D:\Repos\SalsResto\SalsResto.Repository\bin\Debug\net5.0\SalsResto.Repository.pdb
+D:\Repos\SalsResto\SalsResto.Repository\bin\Debug\net5.0\SalsResto.Data.dll
+D:\Repos\SalsResto\SalsResto.Repository\bin\Debug\net5.0\SalsResto.Data.pdb
+D:\Repos\SalsResto\SalsResto.Repository\obj\Debug\net5.0\SalsResto.Repository.csproj.AssemblyReference.cache
+D:\Repos\SalsResto\SalsResto.Repository\obj\Debug\net5.0\SalsResto.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\SalsResto\SalsResto.Repository\obj\Debug\net5.0\SalsResto.Repository.AssemblyInfoInputs.cache
+D:\Repos\SalsResto\SalsResto.Repository\obj\Debug\net5.0\SalsResto.Repository.AssemblyInfo.cs
+D:\Repos\SalsResto\SalsResto.Repository\obj\Debug\net5.0\SalsResto.Repository.csproj.CoreCompileInputs.cache
+D:\Repos\SalsResto\SalsResto.Repository\obj\Debug\net5.0\SalsResto.Repository.csproj.CopyComplete
+D:\Repos\SalsResto\SalsResto.Repository\obj\Debug\net5.0\SalsResto.Repository.dll
+D:\Repos\SalsResto\SalsResto.Repository\obj\Debug\net5.0\ref\SalsResto.Repository.dll
+D:\Repos\SalsResto\SalsResto.Repository\obj\Debug\net5.0\SalsResto.Repository.pdb
