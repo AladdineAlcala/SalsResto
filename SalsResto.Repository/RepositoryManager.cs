@@ -39,9 +39,7 @@ namespace SalsResto.Repository
         }
 
       
-        public void Save()
-        {
-            _salsappDbContext.SaveChanges();
-        }
+        public Task SaveAsync() => _salsappDbContext.SaveChangesAsync();
+
     }
 }

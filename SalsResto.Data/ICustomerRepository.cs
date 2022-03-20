@@ -9,6 +9,10 @@ namespace SalsResto.Data
 {
     public interface ICustomerRepository
     {
-        IEnumerable<Customer> GetAllCustomers(bool trackChanges);
+       Task<IEnumerable<Customer>> GetAllCustomersAsync(bool trackChanges);
+       Task<Customer> GetCustomerInfoByIdAsync(Guid id,bool trackChanges);
+        void CreateCustomer(Customer customer);
+
+
     }
 }

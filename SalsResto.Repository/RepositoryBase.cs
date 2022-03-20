@@ -11,9 +11,11 @@ namespace SalsResto.Repository
 {
     public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
+
+        
         protected SalsApplicationDbContext _RepoSalsApplicationDbContext;
 
-        public RepositoryBase(SalsApplicationDbContext RepoSalsApplicationDbContext )
+        protected RepositoryBase(SalsApplicationDbContext RepoSalsApplicationDbContext )
         {
             _RepoSalsApplicationDbContext = RepoSalsApplicationDbContext;
         }
@@ -22,6 +24,23 @@ namespace SalsResto.Repository
         public void Delete(T entity) => _RepoSalsApplicationDbContext.Set<T>().Remove(entity);
 
         public void Update(T entity) => _RepoSalsApplicationDbContext.Set<T>().Update(entity);
+
+        //public T FindEntity(Expression<Func<T, bool>> expression, bool trackChanges)
+        //{
+
+        //    if (!trackChanges)
+        //    {
+        //        T entity= _RepoSalsApplicationDbContext.Set<T>().Find(expression);
+        //        _RepoSalsApplicationDbContext.Entry(typeof(T)).State = EntityState.Detached;
+
+        //        return entity;
+        //    }
+        //    else
+        //    {
+        //        return _RepoSalsApplicationDbContext.Set<T>().Find(expression);
+        //    }
+              
+        //}
 
         public IQueryable<T> FindAll(bool trackChanges)
         {
@@ -37,6 +56,6 @@ namespace SalsResto.Repository
                 : _RepoSalsApplicationDbContext.Set<T>().Where(expression);
         }
 
-      
+       
     }
 }

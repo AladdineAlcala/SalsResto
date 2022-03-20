@@ -10,6 +10,6 @@ namespace SalsResto.Data
     {
         IBookingRepository BookingRepo {get; }
         ICustomerRepository CustomerRepo {get; }
-        void Save();
+        Task SaveAsync();
     }
 }

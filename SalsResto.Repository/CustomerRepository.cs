@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using SalsResto.Data;
 using SalsResto.Data.Models;
 
@@ -15,10 +16,16 @@ namespace SalsResto.Repository
             
         }
 
-        public IEnumerable<Customer> GetAllCustomers(bool trackChanges) =>
-                                                                        FindAll(trackChanges)
+        public void CreateCustomer(Customer customer) => Create(customer);
+
+
+        public async Task<IEnumerable<Customer>> GetAllCustomersAsync(bool trackChanges) =>
+                                                                      await  FindAll(trackChanges)
                                                                         .OrderBy(c => c.lastname)
-                                                                        .ToList();
+                                                                        .ToListAsync();
+
+        public async Task<Customer> GetCustomerInfoByIdAsync(Guid id, bool trackChanges) =>
+                                                                    await FindByCondition(c => c.Id == id, trackChanges).FirstOrDefaultAsync();
 
     }
 }

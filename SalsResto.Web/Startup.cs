@@ -14,6 +14,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.HttpOverrides;
 using NLog;
+using SalsResto.Web.ActionFilters;
 using SalsResto.Web.Extensions;
 
 namespace SalsResto.Web
@@ -37,8 +38,17 @@ namespace SalsResto.Web
             services.ConfigureLoggerService();
             services.ConfigureSqlContextConnection(Configuration);
             services.ConfigureRepositoryManager();
+            services.ConfigureApiBehavior();
+            services.AddScoped<ValidationFilterAttribute>();
 
-            services.AddControllers();
+            services.AddAutoMapper(typeof(Startup));
+
+            services.AddControllers(config =>
+            {
+                config.RespectBrowserAcceptHeader = true;
+                config.ReturnHttpNotAcceptable = true;
+
+            }).AddNewtonsoftJson();
 
          
         }
